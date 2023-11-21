@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+html, body{
+    min-height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+    background-repeat: no-repeat;
+}
+p{
+    margin: 16px auto;
+    line-height: 1.5em;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+
+/* layout & nav */
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+/*grid, two columns with eq width*/
+  }
+  nav .links {
+    display: inline-block;
+    text-align: right;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+  }
+  nav a:hover {
+    border-color: white;
+  }
+  footer p{
+    text-align: center;
+    color: #bbb;
+    margin: 40px auto;
+  }
